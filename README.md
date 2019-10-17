@@ -83,6 +83,8 @@ filteredData = data[['Country', 'CustomerID']].drop_duplicates()
 filteredData.Country.value_counts()[:10].plt(kind='bar')
 plt.show(block=True)
 ```
+![top_10_customer_country_insight](https://user-images.githubusercontent.com/35737777/67055654-e09b8400-f140-11e9-9bb4-fbe0e7e5f329.png)
+
 In the given dataset, we can observe most of the customers are from "United Kingdom". So, we can filter data for United 
 Kingdom customer.
 
